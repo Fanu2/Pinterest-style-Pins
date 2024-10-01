@@ -1,0 +1,27 @@
+/* styles/Home.module.css */
+.pinForm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.pinForm input,
+.pinForm textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pinForm button {
+  padding: 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pinForm button:hover {
+  background-color: #005bb5;
+}
